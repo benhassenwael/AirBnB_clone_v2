@@ -7,7 +7,7 @@ import models
 
 
 class City(BaseModel, Base):
-    """ The city class, contains state ID and name """
+    """ city class, contains state ID and name """
     if models.storage_t == 'db':
         __tablename__ = 'cities'
         name = Column(String(128), nullable=False)
