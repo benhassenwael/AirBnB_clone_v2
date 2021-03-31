@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Place Module for HBNB project """
+"""The Place Module for HBNB project """
 import models
 from models.base_model import BaseModel, Base
 from os import getenv
