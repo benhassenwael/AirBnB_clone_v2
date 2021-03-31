@@ -3,6 +3,7 @@
 from models.base_model import BaseModel, Base
 import sqlalchemy
 from sqlalchemy import Column, String
+import models
 
 
 class Amenity(BaseModel, Base):
