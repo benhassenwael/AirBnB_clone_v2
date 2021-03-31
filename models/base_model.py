@@ -12,7 +12,7 @@ else:
     Base = object
 
 class BaseModel:
-    """A base class for all hbnb models"""
+    """the base class for all hbnb models"""
     if models.storage_t == 'db':
         id = Column(String(60), nullable=False, primary_key=True)
         created_at = Column(DateTime, nullable=False, default=datetime.utcnow)
