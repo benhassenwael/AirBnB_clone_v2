@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """ Flask web application """
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask('web_flask')
 app.url_map.strict_slashes = False
