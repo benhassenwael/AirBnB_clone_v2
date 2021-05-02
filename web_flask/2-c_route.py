@@ -2,18 +2,20 @@
 """ Flask web application """
 from flask import Flask
 
-
 app = Flask('web_flask')
+
 
 @app.route('/', strict_slashes=False)
 def hello_route():
     """Default route"""
     return 'Hello HBNB!'
 
+
 @app.route('/hbnb', strict_slashes=False)
 def hbnb_route():
     """Return 'HBNB'"""
     return 'HBNB'
+
 
 @app.route('/c/<text>', strict_slashes=False)
 def c_route(text):
